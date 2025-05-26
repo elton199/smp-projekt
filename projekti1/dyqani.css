@@ -1,0 +1,99 @@
+.dyqani-section {
+    padding: 60px 30px;
+    position: relative;
+}
+
+.dyqani-center {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.dyqani-title {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.kategorite {
+    margin-bottom: 40px;
+}
+
+.kategorite-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.kategori-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.kategori-btn {
+    font-family: monospace;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.kategori-btn:hover {
+    background-color: #ff0000;
+}
+
+.veturat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.vetura-card {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.vetura-card:hover {
+    transform: translateY(-5px);
+}
+
+.vetura-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.vetura-info {
+    padding: 20px;
+}
+
+.vetura-info h4 {
+    color: white;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.vetura-info p {
+    color: #888;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+}
+
+.cmimi {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}

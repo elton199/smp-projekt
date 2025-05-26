@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.auth-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.auth-box {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.auth-box h2 {
+    color: #ff2222;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    border-color: #ff2222;
+    outline: none;
+}
+
+.auth-submit {
+    background-color: #ff2222;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.auth-submit:hover {
+    background-color: #cc0000;
+}
+
+.auth-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #888;
+}
+
+.auth-link a {
+    color: #ff2222;
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    color: #cc0000;
+}

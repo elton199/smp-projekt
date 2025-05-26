@@ -1,0 +1,78 @@
+.sherbimet-section {
+    padding: 60px 30px;  
+    position: relative;
+}
+
+.sherbimet-center {
+    width: 1400px;  
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;  
+    border-radius: 10px;  
+}
+
+.sherbimet-title {
+    font-size: 42px;  
+    margin-bottom: 40px;  
+}
+
+.sherbimet-info {
+    display: flex;
+    gap: 30px;  
+}
+
+.sherbimet-info p {
+    width: 500px;  
+    font-size: 18px;  
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px #ffffff77;
+    margin: 0;
+}
+
+.servicelogos {
+    width: 800px;  
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+}
+
+.service-logo,
+.service1-logo {
+    width: 100%;
+    height: 300px;  
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.services-subtitle {
+    font-size: 28px;  
+    color: white;
+    margin: 40px 0 25px 0;  
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;  
+    margin-bottom: 50px;  
+    list-style: none;
+    padding: 0;
+}
+
+.services-list li {
+    color: white;
+    font-size: 22px;  
+    display: flex;
+    align-items: center;
+    padding-left: 25px;  
+    position: relative;
+}
+
+.services-list li::before {
+    content: "✓";
+    color: #00ff08;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 25px;  
+}

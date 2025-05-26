@@ -1,0 +1,130 @@
+
+ body {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white; 
+    font-family: monospace;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 20px 0;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.navbar-title {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 30px 0 0;
+    letter-spacing: 2px;
+}
+
+.brand-logos {
+    display: flex;
+    gap: 15px;
+}
+
+.brand-logo {
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.2s, color 0.2s; 
+}
+
+.nav li a:hover {
+    background: #222;
+    border-radius: 5px;
+    color: #ff2222; 
+}
+.brand-logos .brand-logo {
+    background: none;
+    padding: 0;
+}
+h1 ,ul ,li {
+    font-family: monospace;
+}
+.index1 {
+    margin-top: 60px; 
+}
+
+.index1 .banner {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    background: url('images/service.jpg') center center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-title {
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+.banner p {
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 0;
+    max-width: 700px;
+}
+.auth-buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+.login-btn, .signup-btn {
+    padding: 4px 10px; 
+    font-size: 12px; 
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ff2222;
+}
+
+.signup-btn {
+    background-color: #ff2222;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: rgba(255, 34, 34, 0.1);
+}
+
+.signup-btn:hover {
+    background-color: #cc0000;
+}
